@@ -1,0 +1,98 @@
+*{
+    font-family: furore;
+    font-weight: 1;
+    color: #00ff00;
+}
+
+body{
+    background-color: black;
+    padding: 10px;
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    padding: 30px;
+    border: 2px solid #fff;
+    border-radius: 1.5%;
+    width:80%;
+}
+
+.signup_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 3;
+    gap:20px;
+    padding-right: 15px;
+   
+}
+
+.signup_text{
+    font-size: 60px;
+}
+
+.subtext{
+    font-size: 15px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.textbox{
+    background-color: rgba(255, 255, 255, .15);
+    padding:5px;
+    border-radius: 28px;
+    outline: 3px solid rgba(255, 255, 255, .35);
+}
+
+h2 {
+    margin-left:15px;
+    font-size: 20px;
+}
+
+#x{
+    margin-left: 0;
+}
+
+#y{
+    margin-left: 0;
+}
+
+span{
+    text-decoration: underline;
+    
+}
+
+.dobcontainer {
+    display:grid;
+    grid-template-columns: 20% 20% 45%;
+    justify-content: space-between;
+}
+
+input{
+    background-color: transparent;
+    border-style: none;
+    padding:5px;
+    outline: none;
+}
+
+::placeholder{
+    color: #00ff00;
+    opacity: 40%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.dobtext_dd{
+    width:30px;
+}
+
+.dobtext_mm{
+    width:30px;
+}
+
+.dobtext_yyyy{
+    width:55px;
+}
